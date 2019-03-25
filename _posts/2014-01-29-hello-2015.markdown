@@ -15,7 +15,8 @@ tags:
 
 然后再根据不同的屏幕尺寸去设置根元素的字体大小，这样就可以实现不同屏幕尺寸的适配了，换算比例：  750/100=375/50；750/100=320/42.67;
 
-//@media screen and (min-width: 320px) {html{font-size:42.67px;}}
+```
+@media screen and (min-width: 320px) {html{font-size:42.67px;}}
 @media screen and (min-width: 360px) {html{font-size:48px;}}
 @media screen and (min-width: 375px) {html{font-size:50px;}}
 @media screen and (min-width: 400px) {html{font-size:53.33px;}}
@@ -33,3 +34,4 @@ tags:
 @media screen and (min-width: 800px) {html{font-size:106.67px;}}
 @media screen and (min-width: 960px) {html{font-size:128px;}}
 
+```
