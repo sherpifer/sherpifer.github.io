@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "call apply bind"
-date:       
+date:       "2021-02-02"
 author:     "Sherpifer"
 header-img: "img/post-bg-2015.jpg"
 tags:
