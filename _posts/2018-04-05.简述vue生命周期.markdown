@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "简述vue生命周期"
+date:       “2018-04-05”
+author:     "Sherpifer"
+header-img: "img/post-bg-2015.jpg"
+tags: vue生命周期 nextTick
+    
+---
+
+- 生命周期beforeCreate和created 是初始化vue实例的前后，初始化包括 props、data、methods、watch、computed等属性，但是不渲染dom「与后端接口交互场景适用」
+- beforeMount 是在渲染虚拟dom ，然后mounted 是虚拟dom挂载到真实dom后的回调「mounted 获取dom $ref」
+- beforeUpdate 是在视图层数据被改变后时触发 Updated是视图层数据被改变后之后触发
+- beforeDestroy执行一些销毁任务 清理watcher等，清理后会到destroyed回调
+
+##### nextTrick做了什么
+Vue中DOM的异步更新，会将同一事件的数据都更新完成之后才会更新到dom上，如果更新了会刷新dom的数据后，要依赖dom上的信息做操作则需要在nextTick的回调中获取dom信息

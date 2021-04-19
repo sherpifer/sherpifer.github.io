@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "new 一个对象做了什么"
+date:       ”2019-05-01“
+author:     "Sherpifer"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - new js 
+---
+
+- 创建一个新的对象
+- 将当前作用域赋值给该对象，所以构造函数内的this指向新的对象
+- 执行构造函数的代码，给新对象赋值
+- 最后return 新对象

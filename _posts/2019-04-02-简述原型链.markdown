@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "简述原型链"
+date:       “2019-04-02”
+author:     "Sherpifer"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 原型链
+---
+
+每个对象都有一个__proto__属性去指向创建它的构造函数的原型对象，然后这个原型对象也相应有一个__proto__属性指向创建它的构造函数的对象，如此循环，便会得到一条某对象.__proto__.__proto__…直到Object。prototype为终点的原型链，因为Object.prototype.__proto__是null了，而该某对象继承了这条原型链上的所有内容可以直接调用
