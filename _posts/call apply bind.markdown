@@ -5,10 +5,9 @@ date:       "2021-02-02"
 author:     "Sherpifer"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - h5 canvas 画布污染 跨域图片 
+    - js 
 ---
 
-## 正文
 ## 差异
 bind 和 call 传参方式一样，但是bind返回的是一个函数，绑定this，且可传递预置参数
 call 和 apply 传参方式不一样，apply接收两个参数，第二个参数是一个参数数组

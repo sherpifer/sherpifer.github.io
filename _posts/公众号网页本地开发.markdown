@@ -1,0 +1,28 @@
+
+---
+layout:     post
+title:      "公众号网页本地开发"
+date:       ""
+author:     "Sherpifer"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 微信 公众号网页 
+---
+在本地开发 涉及公众号授权公众号网页， 直接用本地ip作为访问路径会出现redirect_url错误，可以用以下步骤解决，轻松实现本地开发和预览
+![image.png](https://upload-images.jianshu.io/upload_images/25292152-a5d34e78b2efb32a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## 公众号后台设置
+*开发>开发者工具>添加开发者
+- 公众号设置>功能设置
+  - 设置业务域名 A
+  - 设置js接口安全域名 B
+  - 设置网页授权域名 A
+
+## 本地
+- 修改host文件 
+打开host文件 C:\Windows\System32\drivers\etc\ 添加一行
+ ``` json
+  127.0.0.1 域名A
+```
+- 打开开发者工具网页调试
+地址栏输入 域名A 就可以映射到本地预览项目了
