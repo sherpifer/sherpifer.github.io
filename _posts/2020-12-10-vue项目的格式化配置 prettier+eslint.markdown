@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "vue项目的格式化配置 prettier+eslint"
-date:       "
+date:       "2020-12-10"
 author:     "Sherpifer"
 header-img: "img/post-bg-2015.jpg"
 tags:

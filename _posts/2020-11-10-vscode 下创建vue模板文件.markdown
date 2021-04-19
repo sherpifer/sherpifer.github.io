@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "vscode 下创建vue模板文件"
-date:       "
+date:       "2020-11-10"
 author:     "Sherpifer"
 header-img: "img/post-bg-2015.jpg"
 tags:

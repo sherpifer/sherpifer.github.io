@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "vue风格化的eslint规则配置"
-date:       "
+date:       "2020-11-12"
 author:     "Sherpifer"
 header-img: "img/post-bg-2015.jpg"
 tags:

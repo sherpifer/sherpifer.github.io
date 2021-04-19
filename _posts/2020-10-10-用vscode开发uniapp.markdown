@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "用vscode开发uniapp"
-date:       ""
+date:       "2020-10-10"
 author:     "Sherpifer"
 header-img: "img/post-bg-2015.jpg"
 tags:
