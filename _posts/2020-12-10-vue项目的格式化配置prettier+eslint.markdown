@@ -27,7 +27,7 @@ uniapp项目的格式化和eslint同样适用
 }
 ```
 根目录新建一个.prettierrc文件
-```
+```js
 {
     "tabWidth": 2,
     "useTabs": true, // 使用tab（制表符）缩进而非空格
@@ -40,18 +40,20 @@ uniapp项目的格式化和eslint同样适用
     "arrowParens": "avoid",//只有一个参数的箭头函数的参数是否带圆括号（默认avoid不带）
     "htmlWhitespaceSensitivity": "ignore",//  HTML 文件空格敏感度
   }
-  
 ```
 ## 给Vue项目添加eslint
 
 `vue add eslint`
 
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-d773b565c7c858de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 选择Error prevention only，eslint会使用`eslint:recommended`，即eslint的推荐核心规则
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-a7b90c2642fe19ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 选择保存时检查
+
 然后会自动下载eslint相关的依赖，根目录会出现一个.eslint.js的文件
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-a9dc3f1bde3a65b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这样界面和控制台都会有报错提示
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-ac988834d44dd87f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
