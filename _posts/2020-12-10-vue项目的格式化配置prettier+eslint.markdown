@@ -14,6 +14,7 @@ uniapp项目的格式化和eslint同样适用
 * eslint
 ## 创建settings.json与.prettierrc文件
 .vscode>>settings.json
+
 ```json
 {
   "eslint.validate": ["javascript", "javascriptreact", "vue-html", "vue"],
@@ -42,7 +43,9 @@ uniapp项目的格式化和eslint同样适用
   
 ```
 ## 给Vue项目添加eslint
+
 `vue add eslint`
+
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-d773b565c7c858de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 选择Error prevention only，eslint会使用`eslint:recommended`，即eslint的推荐核心规则
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-a7b90c2642fe19ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -56,7 +59,8 @@ PS 界面没有报错提示则检查vscode的状态栏的eslint是否开启的�
 ![image.png](https://upload-images.jianshu.io/upload_images/25292152-16a49488d1ebf8da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 PS：uniapp 的uni会报错 在.eslint.js中加入全局变量，就不会报错了
-```
+
+```js
 module.exports = {
   // ...
   globals: {
